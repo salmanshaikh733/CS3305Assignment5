@@ -1,0 +1,3 @@
+/mnt/c/Users/salma/CLionProjects/assignment5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/salma/CLionProjects/assignment5/cmake-build-debug/CMakeFiles/assignment5.dir
+/mnt/c/Users/salma/CLionProjects/assignment5/cmake-build-debug/CMakeFiles/edit_cache.dir
