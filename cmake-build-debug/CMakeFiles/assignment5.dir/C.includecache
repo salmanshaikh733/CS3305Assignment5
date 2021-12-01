@@ -9,12 +9,16 @@
 /mnt/c/Users/salma/CLionProjects/assignment5/main.c
 stdio.h
 -
-stdlib.h
--
 string.h
 -
-stdbool.h
--
 pthread.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/wait.h
 -
 
