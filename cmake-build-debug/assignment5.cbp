@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/salma/CLionProjects/assignment5/main.c">
+		<Unit filename="/mnt/c/Users/salma/CLionProjects/assignment5/assignment5.c">
 			<Option target="assignment5"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/salma/CLionProjects/assignment5/CMakeLists.txt">

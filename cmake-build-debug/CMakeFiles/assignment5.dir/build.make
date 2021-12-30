@@ -57,38 +57,38 @@ include CMakeFiles/assignment5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/assignment5.dir/flags.make
 
-CMakeFiles/assignment5.dir/main.c.o: CMakeFiles/assignment5.dir/flags.make
-CMakeFiles/assignment5.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/salma/CLionProjects/assignment5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/assignment5.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment5.dir/main.c.o   -c /mnt/c/Users/salma/CLionProjects/assignment5/main.c
+CMakeFiles/assignment5.dir/assignment5.c.o: CMakeFiles/assignment5.dir/flags.make
+CMakeFiles/assignment5.dir/assignment5.c.o: ../assignment5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/salma/CLionProjects/assignment5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/assignment5.dir/assignment5.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment5.dir/assignment5.c.o   -c /mnt/c/Users/salma/CLionProjects/assignment5/assignment5.c
 
-CMakeFiles/assignment5.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assignment5.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/salma/CLionProjects/assignment5/main.c > CMakeFiles/assignment5.dir/main.c.i
+CMakeFiles/assignment5.dir/assignment5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assignment5.dir/assignment5.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/salma/CLionProjects/assignment5/assignment5.c > CMakeFiles/assignment5.dir/assignment5.c.i
 
-CMakeFiles/assignment5.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assignment5.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/salma/CLionProjects/assignment5/main.c -o CMakeFiles/assignment5.dir/main.c.s
+CMakeFiles/assignment5.dir/assignment5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assignment5.dir/assignment5.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/salma/CLionProjects/assignment5/assignment5.c -o CMakeFiles/assignment5.dir/assignment5.c.s
 
-CMakeFiles/assignment5.dir/main.c.o.requires:
+CMakeFiles/assignment5.dir/assignment5.c.o.requires:
 
-.PHONY : CMakeFiles/assignment5.dir/main.c.o.requires
+.PHONY : CMakeFiles/assignment5.dir/assignment5.c.o.requires
 
-CMakeFiles/assignment5.dir/main.c.o.provides: CMakeFiles/assignment5.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/assignment5.dir/main.c.o.provides
+CMakeFiles/assignment5.dir/assignment5.c.o.provides: CMakeFiles/assignment5.dir/assignment5.c.o.requires
+	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/assignment5.c.o.provides.build
+.PHONY : CMakeFiles/assignment5.dir/assignment5.c.o.provides
 
-CMakeFiles/assignment5.dir/main.c.o.provides.build: CMakeFiles/assignment5.dir/main.c.o
+CMakeFiles/assignment5.dir/assignment5.c.o.provides.build: CMakeFiles/assignment5.dir/assignment5.c.o
 
 
 # Object files for target assignment5
 assignment5_OBJECTS = \
-"CMakeFiles/assignment5.dir/main.c.o"
+"CMakeFiles/assignment5.dir/assignment5.c.o"
 
 # External object files for target assignment5
 assignment5_EXTERNAL_OBJECTS =
 
-assignment5: CMakeFiles/assignment5.dir/main.c.o
+assignment5: CMakeFiles/assignment5.dir/assignment5.c.o
 assignment5: CMakeFiles/assignment5.dir/build.make
 assignment5: CMakeFiles/assignment5.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/salma/CLionProjects/assignment5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable assignment5"
@@ -99,7 +99,7 @@ CMakeFiles/assignment5.dir/build: assignment5
 
 .PHONY : CMakeFiles/assignment5.dir/build
 
-CMakeFiles/assignment5.dir/requires: CMakeFiles/assignment5.dir/main.c.o.requires
+CMakeFiles/assignment5.dir/requires: CMakeFiles/assignment5.dir/assignment5.c.o.requires
 
 .PHONY : CMakeFiles/assignment5.dir/requires
 

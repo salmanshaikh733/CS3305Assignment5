@@ -123,32 +123,32 @@ assignment5/fast:
 	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/build
 .PHONY : assignment5/fast
 
-main.o: main.c.o
+assignment5.o: assignment5.c.o
 
-.PHONY : main.o
+.PHONY : assignment5.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/main.c.o
-.PHONY : main.c.o
+assignment5.c.o:
+	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/assignment5.c.o
+.PHONY : assignment5.c.o
 
-main.i: main.c.i
+assignment5.i: assignment5.c.i
 
-.PHONY : main.i
+.PHONY : assignment5.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/main.c.i
-.PHONY : main.c.i
+assignment5.c.i:
+	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/assignment5.c.i
+.PHONY : assignment5.c.i
 
-main.s: main.c.s
+assignment5.s: assignment5.c.s
 
-.PHONY : main.s
+.PHONY : assignment5.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/main.c.s
-.PHONY : main.c.s
+assignment5.c.s:
+	$(MAKE) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/assignment5.c.s
+.PHONY : assignment5.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... assignment5"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... assignment5.o"
+	@echo "... assignment5.i"
+	@echo "... assignment5.s"
 .PHONY : help
 
 
